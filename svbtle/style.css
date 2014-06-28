@@ -1,0 +1,210 @@
+body{
+	margin:0;
+	font-family: 'proxima-nova','Helvetica','Avenir','Arial',sans-serif;
+	font-weight: 400;
+	background-color: #fff;
+}
+
+*{
+	outline:1px solid red;
+}
+
+
+
+header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #fff;
+	border-right: 1px solid #eee;
+	width: 125px;
+	z-index: 1;
+}
+
+h1 {
+	color: #000;
+	font-family: 'Helvetica';
+	text-transform: uppercase;
+	font-size: px;
+	margin: 50 0 0 0;
+}
+
+.read {
+	color: #bbb;
+	font-size: 1.5em;
+	position: relative;
+	display: block;
+	font-family: 'Helvetica';
+	font-weight: 100;
+	top: 2%;
+	left: 9%;
+	margin: 0 0 18% 0;
+}
+
+h2 {
+	color: #000;
+	font-family: 'Helvetica';
+	font-size: 37px;
+	margin: 2% 0 0 0;
+	position: relative;
+
+}
+
+h3 {
+	color: #0b4c76;
+	font-family: 'Helvetica';
+	text-transform: uppercase;
+	font-size: 17px;
+	margin: 0;
+	position: relative;
+}
+
+h4 {
+	font-family: 'Helvetica';
+	color: #777;
+	position: relative;
+	top: 1%;
+	left: 9%;
+	font-size: 1.2em;
+}
+
+h5 {
+	font-family: 'Helvetica';
+	text-transform: uppercase;
+	color: #777;
+	position: relative;
+	top: .2%;
+	left: 9%;
+	font-size: .8em;
+
+}
+
+
+
+p {
+	font-size: 1.1em;
+	line-height: 1.5;
+	color: #4d4d4d;
+	font-family: 'Helvetica';
+
+}
+
+.side {
+	font-size: .9em;
+	line-height: 1.5;
+	color: #4d4d4d;
+	font-family: 'Helvetica';
+	display: inline;
+	position: relative;
+	left: 9%;
+	width: 20%;
+
+
+}
+
+.navmaster{
+	position: fixed;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 55px;
+	background-color: #fff;
+	border-left: 1px solid #eee;
+	z-index: 1;
+}
+
+.post {
+	max-width: 550px;
+	float:left;
+	margin: 0 0 0 15%;	
+	padding: 0px 20px;
+	margin-bottom: 50px;
+}
+
+.secondary {
+	display: block;
+	float: right;
+	margin: 0 4% 0 0;
+	width: 29%;
+	border-left: 1px solid #eee;
+	height: 2000px;
+
+}
+
+footer {
+	position: relative;
+	width: auto;
+	display: block;
+	clear: both;
+	background-color: #fff;
+	z-index: 100;
+	height: 200px;
+	border-top: 1px solid #eee;
+}
+
+ul {
+	position: relative;
+	top: 40px;
+	display: block;
+	font-size: 15px;
+	line-height: 10px;
+	color: #acacac;
+	height: 200px;
+
+
+}
+
+
+li {
+	position: relative;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	right: 25px;
+	line-height: 2.5em;
+}
+
+.logo {
+	top: 30px;
+	left: 47px;
+	position: relative;
+}
+
+.wallet {
+	max-width: 95%;
+}
+
+a {
+	color: #ccc;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#000;
+}
+
+.thoughts {
+	color: #666;
+	font-family: 'Helvetica';
+	font-size: 	.9em;
+	font-weight: 100;
+	left: 25%;
+	top: 20%;
+	display: block;
+	position: relative;
+}
+
+.twitter {
+	color: #666;
+	font-family: 'Helvetica';
+	font-size: 	.9em;
+	font-weight: 100;
+	left: 25%;
+	top: 30%;
+	display: block;
+	position: relative;
+
+
+}
