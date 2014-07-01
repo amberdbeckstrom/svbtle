@@ -1,0 +1,198 @@
+html body{
+	width: 100%;
+	height: 100%;
+}
+
+	/**{
+		outline:1px solid red;
+	}*/
+
+
+
+body {
+	margin: 0 auto;
+}
+
+.me {
+	background-size: cover;
+	z-index: 1;
+	position: relative;
+	width: 100%;
+}
+
+aside {
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	width: 25%;
+	height: 60%;
+	/*background-color: rgba(0,0,0,0.5);*/
+	z-index: 100;
+	background: linear-gradient(top , rgb(18, 16, 16) 7% , rgba(255, 255, 255, 0) 90%);
+	background: -o-linear-gradient(top , rgb(18, 16, 16) 7% , rgba(255, 255, 255, 0) 90%);
+	background: -ms-linear-gradient(top , rgb(18, 16, 16) 7% , rgba(255, 255, 255, 0) 90%);
+	background: -moz-linear-gradient(top , rgb(18, 16, 16) 7% , rgba(255, 255, 255, 0) 90%);
+	background: -webkit-linear-gradient(top , rgb(18, 16, 16) 7% , rgba(255, 255, 255, 0) 90%);
+}
+
+h1 {
+	font-family: helvetica;
+	font-weight: 100;
+	margin: 0;
+	padding: 0 0 0 10%;
+	color: #fff;
+}
+
+h2 {
+	position: relative;
+	top: -4%;
+	font-family: helvetica;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin: 0;
+	padding: 0 0 0 10%;
+	color:#ccc;
+}
+
+.info {
+	font-family: helvetica;
+	color: #ccc;
+	padding: 0 10%;
+	position: relative;
+	top: -3%;
+
+}
+
+.social {
+	position: absolute;
+	top: 3%;
+	right: 0;
+	z-index: 100;
+	width: 20%;
+}
+
+.button {
+	width: 50px;
+	height: 50px;
+	background: url() no-repeat;
+	background-size: 90%;
+	float:left;
+	margin: 0 0 0 10%;
+
+}
+
+.button.behance {
+	background-image: url("img/behance.png");
+}
+
+.button.behance:hover {
+	background-image: url("img/behancehover.png");
+
+}
+
+.button.github {
+	background-image: url("img/github.png");
+}
+
+.button.github:hover {
+	background-image: url("img/githubhover.png");
+}
+
+.button.linkedin {
+	background-image: url("img/linkedin.png");
+}
+
+.button.linkedin:hover {
+	background-image: url("img/linkedinhover.png");
+}
+
+footer{
+	position:relative;
+	left:0;
+	bottom:0;
+	height: 10%;
+	width: 100%;
+	
+
+}
+
+.copyright {
+	display: inline;
+	float: right;
+	padding: 0 1% 0 0;
+	color: #bbb;
+	font-family: helvetica;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: .7em;
+
+}
+
+
+@media only screen and (max-width: 701px) {
+
+aside {
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	width: 50%;
+	height: 63%;
+	background-color: rgba(0,0,0,0.5);
+	
+}
+
+footer{
+	position:absolute;
+	left:0;
+	bottom:0;
+	height: 6%;
+
+}
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+aside {
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	width: 80%;
+	height: 63%;
+	background-color: rgba(0,0,0,0.5);
+	
+}
+
+footer{
+	position:absolute;
+	left:0;
+	bottom:0;
+	height: 6%;
+
+}
+
+.copyright {
+	display: inline;
+	float: right;
+	padding: 0 4% 0 0;
+	
+
+}
+
+.social {
+	position: absolute;
+	top: 72.7%;
+	right: 23%;
+	z-index: 999;
+	width: 55%;
+}
+
+}
+
+
+
+
+	
+
